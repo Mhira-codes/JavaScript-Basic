@@ -1,0 +1,451 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    width: 110%;
+}
+
+.maincontainer {
+    display: flex;
+}
+
+.container {
+    position: absolute;
+    top: 18%;
+    left: 2%;
+    width: 35%;
+    height: 60vh;
+    background-color: deepskyblue;
+    text-align: center;
+    padding-top: 4%;
+}
+
+.container1 {
+    position: absolute;
+    top: 18%;
+    left: 39%;
+    width: 35%;
+    height: 60vh;
+    background-color: seagreen;
+    padding-top: 4%;
+}
+
+img {
+    width: 250px;
+}
+
+#head {
+    font-size: 50px;
+    color: darkslategray;
+}
+
+h2 {
+    font-size: 70px;
+    color: darkolivegreen;
+}
+
+#increment {
+    width: 200px;
+    height: 50px;
+    font-size: 30px;
+    outline: none;
+    border: 2px solid cornflowerblue;
+    border-radius: 5px;
+    font-weight: bolder;
+    background-color: chocolate;
+    color: lightcyan;
+    letter-spacing: 1.2px;
+}
+
+span {
+    margin-right: 25%;
+    font-weight: bolder;
+    position: absolute;
+    top: 15%;
+}
+
+#cost {
+    position: absolute;
+    top: 45%;
+    width: 201px;
+    height: 62px;
+    font-size: 22px;
+    border-radius: 15px;
+    outline: none;
+    border: 2px solid lightgrey;
+    color: teal;
+    font-weight: bolder;
+    padding: 1%;
+}
+
+.container p {
+    position: absolute;
+    top: 60%;
+    margin-left: 53%;
+    margin-top: 3%;
+    color: maroon;
+}
+
+.container2 {
+    position: absolute;
+    top: 18%;
+    left: 76%;
+    width: 35%;
+    height: 60vh;
+    background-color: slateblue;
+    padding-top: 4%;
+}
+
+input {
+    outline: none;
+    width: 50px;
+    border-bottom: 2px solid white;
+    background-color: slateblue;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    font-size: 40px;
+    text-align: center;
+}
+
+.inputtitems {
+    margin-left: 42%;
+    margin-top: 5%;
+}
+
+.buttons {
+    margin-left: 21%;
+    margin-top: 8%;
+}
+
+.operations {
+    width: 150px;
+    height: 50px;
+    margin-top: 8%;
+    font-size: 21px;
+    color: darkslategray;
+    font-weight: bold;
+    border-radius: 5px;
+    background-image: linear-gradient(to right, lightcyan, chocolate);
+}
+
+#answer-button {
+    width: 150px;
+    height: 50px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.answer {
+    margin-left: 39%;
+    margin-top: 10%;
+    outline: none;
+}
+
+@media screen and (max-width:912px) {
+    .maincontainer {
+        display: flex;
+    }
+    .container {
+        position: absolute;
+        top: 18%;
+        left: 2%;
+        width: 35%;
+        height: 60vh;
+        background-color: deepskyblue;
+        text-align: center;
+        padding-top: 4%;
+    }
+    .container1 {
+        position: absolute;
+        top: 18%;
+        left: 39%;
+        width: 35%;
+        height: 60vh;
+        background-color: seagreen;
+        padding-top: 4%;
+    }
+    img {
+        width: 150px;
+    }
+    #head {
+        font-size: 50px;
+        color: darkslategray;
+    }
+    h2 {
+        font-size: 70px;
+        color: darkolivegreen;
+    }
+    #increment {
+        width: 200px;
+        height: 50px;
+        font-size: 30px;
+        outline: none;
+        border: 2px solid cornflowerblue;
+        border-radius: 5px;
+        font-weight: bolder;
+        background-color: chocolate;
+        color: lightcyan;
+        letter-spacing: 1.2px;
+    }
+    span {
+        margin-right: 25%;
+        font-weight: bolder;
+        position: absolute;
+        top: 15%;
+    }
+    #cost {
+        position: absolute;
+        top: 45%;
+        width: 150px;
+        height: 45px;
+        font-size: 18px;
+        border-radius: 15px;
+        outline: none;
+        border: 2px solid lightgrey;
+        color: teal;
+        font-weight: bolder;
+        padding: 1%;
+        margin-right: 4%;
+    }
+    .container p {
+        position: absolute;
+        top: 60%;
+        margin-left: 53%;
+        margin-top: 3%;
+        color: maroon;
+    }
+    .container2 {
+        position: absolute;
+        top: 18%;
+        left: 76%;
+        width: 35%;
+        height: 60vh;
+        background-color: slateblue;
+        padding-top: 4%;
+    }
+    input {
+        outline: none;
+        width: 50px;
+        border-bottom: 2px solid white;
+        background-color: slateblue;
+        border-left: none;
+        border-right: none;
+        border-top: none;
+        font-size: 40px;
+        text-align: center;
+    }
+    .inputtitems {
+        margin-left: 42%;
+        margin-top: 5%;
+    }
+    .buttons {
+        margin-left: 25%;
+        margin-top: 8%;
+        display: inline;
+        margin-left: 5%;
+        margin-top: 2%;
+    }
+    .operations {
+        width: 120px;
+        height: 50px;
+        margin-top: 8%;
+        font-size: 19px;
+        color: darkslategray;
+        font-weight: bold;
+        border-radius: 5px;
+        background-image: linear-gradient(to right, lightcyan, chocolate);
+        margin-left: 7%;
+    }
+    #answer-button {
+        width: 150px;
+        height: 50px;
+        font-size: 30px;
+        font-weight: bold;
+    }
+    .answer {
+        margin-left: 30%;
+    }
+    #division {
+        margin-left: 12%;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .maincontainer {
+        display: flex;
+    }
+    .container {
+        position: absolute;
+        top: 18%;
+        left: 2%;
+        width: 35%;
+        height: 60vh;
+        background-color: deepskyblue;
+        text-align: center;
+        padding-top: 4%;
+    }
+    .container1 {
+        position: absolute;
+        top: 18%;
+        left: 39%;
+        width: 35%;
+        height: 60vh;
+        background-color: seagreen;
+        padding-top: 4%;
+    }
+    img {
+        width: 150px;
+    }
+    #head {
+        font-size: 50px;
+        color: darkslategray;
+    }
+    h2 {
+        font-size: 70px;
+        color: darkolivegreen;
+    }
+    #increment {
+        width: 200px;
+        height: 50px;
+        font-size: 30px;
+        outline: none;
+        border: 2px solid cornflowerblue;
+        border-radius: 5px;
+        font-weight: bolder;
+        background-color: chocolate;
+        color: lightcyan;
+        letter-spacing: 1.2px;
+    }
+    span {
+        margin-right: 25%;
+        font-weight: bolder;
+        position: absolute;
+        top: 15%;
+    }
+    #cost {
+        position: absolute;
+        top: 45%;
+        width: 100px;
+        height: 45px;
+        font-size: 18px;
+        border-radius: 15px;
+        outline: none;
+        border: 2px solid lightgrey;
+        color: teal;
+        font-weight: bolder;
+        padding: 1%;
+    }
+    .container p {
+        position: absolute;
+        top: 60%;
+        margin-left: 53%;
+        margin-top: 3%;
+        color: maroon;
+    }
+    .container2 {
+        position: absolute;
+        top: 18%;
+        left: 76%;
+        width: 35%;
+        height: 60vh;
+        background-color: slateblue;
+        padding-top: 4%;
+    }
+    input {
+        outline: none;
+        width: 50px;
+        border-bottom: 2px solid white;
+        background-color: slateblue;
+        border-left: none;
+        border-right: none;
+        border-top: none;
+        font-size: 40px;
+        text-align: center;
+    }
+    .inputtitems {
+        margin-left: 42%;
+        margin-top: 5%;
+    }
+    .buttons {
+        margin-left: 25%;
+        margin-top: 5%;
+        display: inline;
+        margin-left: 3%;
+        margin-top: 2%;
+    }
+    .operations {
+        width: 120px;
+        height: 50px;
+        margin-top: 8%;
+        font-size: 19px;
+        color: darkslategray;
+        font-weight: bold;
+        border-radius: 5px;
+        background-image: linear-gradient(to right, lightcyan, chocolate);
+        margin-left: 7%;
+    }
+    #answer-button {
+        width: 150px;
+        height: 50px;
+        font-size: 30px;
+        font-weight: bold;
+    }
+    .answer {
+        margin-left: 30%;
+    }
+    #division {
+        margin-left: 12%;
+    }
+}
+
+.container3 {
+    position: absolute;
+    top: 18%;
+    left: 113%;
+    width: 35%;
+    height: 60vh;
+    background-color: rosybrown;
+    padding-top: 4%;
+}
+
+.subcontainer {
+    text-align: center;
+}
+
+.subcontainer h1 {
+    font-size: 70px;
+    color: darkslategray;
+    letter-spacing: 1.2px;
+}
+
+h3 {
+    font-size: 26px;
+    margin-top: 3%;
+    letter-spacing: 1.2px;
+}
+
+.play {
+    font-size: 20px;
+    margin-top: 4%;
+    font-weight: 600;
+    letter-spacing: 1.2px;
+    color: darkslategray;
+}
+
+.subcontainer button {
+    width: 175px;
+    height: 50px;
+    margin-top: 6%;
+    outline: none;
+    border: 2px solid firebrick;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    border-radius: 5px;
+    background: linear-gradient(to right, slateblue, darkcyan);
+    letter-spacing: 1.3px;
+}

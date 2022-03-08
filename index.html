@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>freecodecamp Tutorials</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="maincontainer">
+        <div class="container">
+            <h1 id="head">People entered: </h1>
+            <h2 id="count-el" onclick="reset()">0</h2>
+            <button id="increment" onclick="increment()">INCREMENT</button>
+
+        </div>
+        <div class="container1">
+            <img src="./38828365395.png" alt="squatting">
+            <span> <h1 > YOGA WEAR</h1></span>
+            <button id="cost" onclick="site()"> Purchase - $ 230</button>
+            <p id="error"></p>
+
+        </div>
+        <div class="container2">
+            <div class="inputtitems">
+                <input type="text" id="Num1">
+                <input type="text" id="Num2">
+            </div>
+            <div class="buttons">
+                <button class="operations" onclick="add()">Add</button>
+                <button class="operations" onclick="subtract()">Subtract</button>
+                <button class="operations" id="division" onclick="division()">
+                Division</button>
+                <button class=" operations" id="multiply" onclick="multiply ()">Multiply</button>
+            </div>
+            <div class="answer ">
+                <button id="answer-button"></button>
+            </div>
+        </div>
+        <div class="container3" onclick="Container()">
+            <div class="subcontainer">
+                <h1> BlackJack</h1>
+                <i>
+                <h3 id="message">Want to play a round?</h3></i>
+                <p class="play" id="card">Cards:</p>
+                <p class="play" id="summation">Sum:</p>
+                <button onclick="start()">START GAME </button>
+                <button onclick="newgame()">NEW CARD</button>
+            </div>
+        </div>
+
+    </div>
+
+
+    <script src=" ./index.js ">
+    </script>
+    <script src="./mhira.js"></script>
+
+</body>
+
+</html>
