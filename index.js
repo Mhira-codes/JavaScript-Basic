@@ -119,14 +119,19 @@ function division() {
 
 }
 
-let firstCard = 3;
-let secondCard = 4;
+
+let firstCard = getRandomValue();
+let secondCard = getRandomValue();
 let sum = firstCard + secondCard;
 let Cards = [firstCard, secondCard];
 let messageEl = document.getElementById("message")
 let SumEL = document.getElementById("summation");
 let CardEL = document.getElementById("card")
 
+function getRandomValue() {
+    let randomValue = Math.floor(Math.random() * 13) + 1;
+    return randomValue;
+}
 
 function start() {
 
@@ -147,14 +152,37 @@ function start() {
 }
 
 function newgame() {
-    let Card = 8;
+    let Card = getRandomValue();
     sum = sum + Card;
 
     start()
-        // CardEL.textContent = "Cards : " + Cards[0] + " " + Cards[1] + " " +Card;
-    CardEL.textContent = "Cards : " + Cards[0] + " " + Cards[1];
+    CardEL.textContent = "Cards : " + Cards[0] + " " + Cards[1] + " " + Card;
+    // for (let i = 0; i < Cards.length; i++)   CardEL.textContent += "Cards : " + Cards}
+
     CardEL.textContent.push(Card);
 }
+let cash = 200;
+let nameCard = document.getElementById("name");
+nameCard.textContent = "Mhira " + ": " + "$" + cash;
+
+
+
+//FUnction to putapples and oranges in their selves
+let fruits = ["orange", "apple", ]
+let orangeShelf = document.getElementById("orangeshelf")
+let appleShelf = document.getElementById("appleshelf");
+
+function fruitsShelves() {
+    for (i = 0; i < fruits.length; i++) {
+        if (fruits[i] === "orange") {
+            orangeShelf.textContent += " orange "
+        } else if (fruits[i] === "apple") {
+            appleShelf.textContent += " apple "
+        }
+    }
+
+}
+
 
 
 

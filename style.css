@@ -16,7 +16,7 @@ body {
     position: absolute;
     top: 18%;
     left: 2%;
-    width: 35%;
+    width: 460px;
     height: 60vh;
     background-color: deepskyblue;
     text-align: center;
@@ -27,7 +27,7 @@ body {
     position: absolute;
     top: 18%;
     left: 39%;
-    width: 35%;
+    width: 460px;
     height: 60vh;
     background-color: seagreen;
     padding-top: 4%;
@@ -93,7 +93,7 @@ span {
     position: absolute;
     top: 18%;
     left: 76%;
-    width: 35%;
+    width: 460px;
     height: 60vh;
     background-color: slateblue;
     padding-top: 4%;
@@ -153,7 +153,7 @@ input {
         position: absolute;
         top: 18%;
         left: 2%;
-        width: 35%;
+        width: 460px;
         height: 60vh;
         background-color: deepskyblue;
         text-align: center;
@@ -162,8 +162,8 @@ input {
     .container1 {
         position: absolute;
         top: 18%;
-        left: 39%;
-        width: 35%;
+        left: 43%;
+        width: 460px;
         height: 60vh;
         background-color: seagreen;
         padding-top: 4%;
@@ -221,8 +221,8 @@ input {
     .container2 {
         position: absolute;
         top: 18%;
-        left: 76%;
-        width: 35%;
+        left: 80%;
+        width: 460px;
         height: 60vh;
         background-color: slateblue;
         padding-top: 4%;
@@ -282,7 +282,7 @@ input {
         position: absolute;
         top: 18%;
         left: 2%;
-        width: 35%;
+        width: 460px;
         height: 60vh;
         background-color: deepskyblue;
         text-align: center;
@@ -291,8 +291,8 @@ input {
     .container1 {
         position: absolute;
         top: 18%;
-        left: 39%;
-        width: 35%;
+        left: 50%;
+        width: 460px;
         height: 60vh;
         background-color: seagreen;
         padding-top: 4%;
@@ -349,8 +349,8 @@ input {
     .container2 {
         position: absolute;
         top: 18%;
-        left: 76%;
-        width: 35%;
+        left: 80%;
+        width: 460px;
         height: 60vh;
         background-color: slateblue;
         padding-top: 4%;
@@ -406,7 +406,7 @@ input {
     position: absolute;
     top: 18%;
     left: 113%;
-    width: 35%;
+    width: 460px;
     height: 60vh;
     background-color: rosybrown;
     padding-top: 4%;
@@ -448,4 +448,45 @@ h3 {
     border-radius: 5px;
     background: linear-gradient(to right, slateblue, darkcyan);
     letter-spacing: 1.3px;
+}
+
+.fruits {
+    position: absolute;
+    top: 18%;
+    left: 150%;
+    width: 460px;
+    height: 60vh;
+    background-color: crimson;
+    padding-top: 4%;
+}
+
+#orangeshelf,
+#appleshelf {
+    width: 400px;
+    height: 100px;
+    background-color: white;
+    margin-left: 30px;
+    margin-top: 60px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 20px;
+    color: slategrey;
+    padding-top: 30px;
+    text-shadow: 2px 2px 2px cadetblue;
+    font-weight: bold;
+}
+
+#name {
+    font-weight: bolder;
+    margin-top: 30px;
+    font-size: 40px;
+}
+
+.heading {
+    font-size: 30px;
+    text-align: center;
+    margin-left: 10px;
+    text-shadow: 2px 2px 2px sienna;
+    color: darkkhaki;
+    font-weight: bolder;
 }
